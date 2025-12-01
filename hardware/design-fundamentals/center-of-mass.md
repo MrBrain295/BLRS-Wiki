@@ -10,7 +10,7 @@ The [center of mass](https://en.wikipedia.org/wiki/Center\_of\_mass) (COM) or ce
 
 ## Measuring COM Position
 
-* Model the robot in CAD, and use a "measure"-type tool.]
+* Model the robot in CAD, and use a "measure"-type tool.
 * Lift the robot by the chassis using 2 fingers. When the robot balances on your fingers, the XY location of the COM will lie in the line formed by your 2 fingers.&#x20;
 * [Hang](center-of-mass.md#hanging) the robot, and observe how the robot tilts to settle.
 
@@ -22,11 +22,11 @@ When a robot brakes, the friction between the wheels and the floor rapidly decel
 
 To mitigate jerking ...
 
-* lower the height of the COM off the ground
-  * use lighter materials in the upper sections of the robot (ex. 1x1 L channels on arms, plastic screws / nuts)
-  * use heavier materials in the lower sections of the robot
-* decrease the max acceleration available to the driver
-* implement motion profiling and other motor [control techniques](../../software/control-algorithms/)
+* Lower the height of the COM off the ground
+  * Use lighter materials in the upper sections of the robot (ex. 1x1 L channels on arms, plastic screws/nuts)
+  * Use heavier materials in the lower sections of the robot
+* Decrease the max acceleration available to the driver
+* Implement motion profiling and other motor [control techniques](../../software/control-algorithms/)
 
 <figure><img src="../../.gitbook/assets/com drawing v2.png" alt="" width="352"><figcaption><p>The magnitude of the <a href="torque.md">torque</a> is proportional to the height and magnitude of the braking/slowing force.</p></figcaption></figure>
 
@@ -50,5 +50,5 @@ The end effector used during a hang is typically implemented with a joint. If th
 
 To control the position of the COM in the XY plane ...
 
-* place towers optimally after building the chassis
-* add/remove weight selectively around the robot
+* Place towers optimally after building the chassis
+* Add/remove weight selectively around the robot
